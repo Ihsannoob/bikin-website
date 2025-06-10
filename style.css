@@ -109,6 +109,13 @@ body.light .links a {
 body.light .links a:hover {
     color: #00adb5;
 }
+
+h4 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    color: #ffffff;
+
+}
 .reveal {
   opacity: 0;
   transform: translateY(50px);
