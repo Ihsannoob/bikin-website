@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxenity</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxenity</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <button id="themeToggle">Toggle Theme>🌚Dark Mode</button>
-    <main class="fade-in">
-        <h1>Luxenity</h1>
-        <p>Welcome To LUXENITY</p>
-        <div class="links">
-            <a href="https://github.com/ihsannoob" target="_blank">GitHub</a>
-            <a href="https://www.instagram.com/ihsan_nob?igsh=ZTQ3NmY4Z2ZtaTRo" target="_blank">Instagram</a>
-        </div>
-        <section class="about fade-in">
-        <h2>About Me</h2>
-        <p>SAMA KONTOL 1</p>
-        </section>
-    </main>
-        <script>
-        const toggleButton = document.getElementById('themeToggle');
-        toggleButton.onclick = () => {
-            if document.body.classList.toggle('light')) {
-                toggleButton.textContent = '🌝 Light Mode';
-            }else{ toggleButton.textContent = '🌚 Dark Mode';
-                  {
-        };
-                  toggleButton.onclick = () => {
-                      document.body.classlist.toggle('light')
-                      UpdateButtonicon();
-        };
+  <button id="themeToggle" class="themeToggle">🌚 Dark Mode</button>
 
-      UpdateButtonIcon();
-    </script>
+  <main class="fade-in">
+    <h1>Luxenity</h1>
+    <p>Welcome To LUXENITY</p>
+    <div class="links">
+      <a href="https://github.com/ihsannoob" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/ihsan_nob?igsh=ZTQ3NmY4Z2ZtaTRo" target="_blank">Instagram</a>
+    </div>
+    <section class="about fade-in">
+      <h2>About Me</h2>
+      <p>Saya adalah developer pemula yang suka belajar dan eksplorasi teknologi web!</p>
+    </section>
+  </main>
+
+  <script>
+    const toggleButton = document.getElementById('themeToggle');
+
+    function updateButtonIcon() {
+      if (document.body.classList.contains('light')) {
+        toggleButton.textContent = '🌝 Light Mode';
+      } else {
+        toggleButton.textContent = '🌚 Dark Mode';
+      }
+    }
+
+    toggleButton.onclick = () => {
+      document.body.classList.toggle('light');
+      updateButtonIcon();
+    };
+
+    updateButtonIcon(); // Set ikon saat awal halaman dibuka
+  </script>
 </body>
 </html>
