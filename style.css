@@ -70,13 +70,13 @@ p {
 #themeToggle {
     position: fixed;
     top: 10px;
-    right: 30px;
+    right: 32px;
     background: transparent;
-    border: 2px solid #00adb5;
+    border: 3px solid #00adb5;
     color: #00adb5;
     padding: 8px 14px;
-    font-size: 14px;
-    border-radius: 8px;
+    font-size: 15px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
     z-index: 1000;
