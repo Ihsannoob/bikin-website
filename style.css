@@ -11,22 +11,6 @@ body {
     text-align: center;
 }
 
-main {
-    max-width: 600px;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 0.2em;
-    color: #ffffff;
-}
-
-p {
-    font-size: 1.2em;
-    color: #ccc;
-}
-
 .links {
     margin-top: 20px;
 }
