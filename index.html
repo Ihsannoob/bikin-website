@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <button id="themeToggle">Toggle Theme</button>
+    <button id="themeToggle">Toggle Theme>🌚Dark Mode</button>
     <main class="fade-in">
         <h1>Luxenity</h1>
         <p>Welcome To LUXENITY</p>
@@ -23,8 +23,17 @@
         <script>
         const toggleButton = document.getElementById('themeToggle');
         toggleButton.onclick = () => {
-            document.body.classList.toggle('light');
+            if document.body.classList.toggle('light')) {
+                toggleButton.textContent = '🌝 Light Mode';
+            }else{ toggleButton.textContent = '🌚 Dark Mode';
+                  {
         };
+                  toggleButton.onclick = () => {
+                      document.body.classlist.toggle('light')
+                      UpdateButtonicon();
+        };
+
+      UpdateButtonIcon();
     </script>
 </body>
 </html>
