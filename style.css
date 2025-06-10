@@ -66,3 +66,45 @@ p {
     color: #bbb;
     line-height: 1.6;
 }
+#themeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: 2px solid #00adb5;
+    color: #00adb5;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+#themeToggle:hover {
+    background: #00adb5;
+    color: #111;
+}
+
+body.light {
+    background-color: #f0f0f0;
+    color: #111;
+}
+
+body.light h1,
+body.light h2 {
+    color: #222;
+}
+
+body.light p,
+body.light .about p {
+    color: #444;
+}
+
+body.light .links a {
+    color: #005f63;
+}
+
+body.light .links a:hover {
+    color: #00adb5;
+}
