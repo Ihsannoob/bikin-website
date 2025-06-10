@@ -118,6 +118,6 @@ body.light .links a:hover {
 
 .reveal.active {
   opacity: 1;
-  transform: translateY(100px);
+  transform: translateY(500px);
   visibility: visible;
 }
