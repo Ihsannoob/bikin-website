@@ -111,3 +111,7 @@ body.light .links a {
 body.light .links a:hover {
     color: #00adb5;
 }
+body {
+      background-color: #000000
+      color:white;
+}
