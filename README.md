@@ -1,4 +1,4 @@
-Hi Guys Ichan disini
+Hi Ichan disini!
 
 aku adalah developer pemula yang suka belajar dan eksplorasi teknologi web!
 
